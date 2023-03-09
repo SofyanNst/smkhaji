@@ -5,10 +5,36 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.carousel-caption {
-    top: 15vh;
-    bottom: auto;
+.tes1{
+    background-color: #A83030;
+    min-height: 100%;
+    height: 40rem;
 }
+.tes2{
+    background-color: #1f90c1;
+    min-height: 100%;
+    height: 40rem;
+}
+.carousel {
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 40rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 40rem;
+  }
 
 .btn-white {
     background-color: #fff;
@@ -53,9 +79,6 @@ body {
     color: #A83030;
 }
 
-.about-picture img{
-    margin-top: 5vh;
-}
 
 .btn-darkred {
     background-color: #A83030;
@@ -86,6 +109,8 @@ body {
 .testimoni h1{
     color: #A83030;
 }
+
+
 
 
 
