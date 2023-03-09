@@ -29,6 +29,7 @@ body {
     color: #A83030;
     font-size: 2.5vh;
     border-radius: 5vh;
+    margin-top: 5vh;
 }
 
 .vocational-card-red {
@@ -36,6 +37,7 @@ body {
     color: #fff;
     font-size: 2.5vh;
     border-radius: 5vh;
+    margin-top: 5vh;
 }
 
 .about-card-white {
@@ -49,6 +51,10 @@ body {
 
 .about-card-white h1 {
     color: #A83030;
+}
+
+.about-picture img{
+    margin-top: 5vh;
 }
 
 .btn-darkred {
@@ -86,12 +92,12 @@ body {
 @media (max-width: 575.98px) {
     .vocational-card-white{
         width: 90%;
-        margin-top: -5vh;
+        margin-top: 3vh;
     }
 
     .vocational-card-red{
         width: 90%;
-        margin-top: -100px;
+        margin-top: 3vh;
     }
 }
 
