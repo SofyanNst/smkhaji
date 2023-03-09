@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.carousel-caption {
+    top: 15vh;
+    bottom: auto;
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #A83030;
+    border-radius: 3vh;
+}
+
+.bg-pink {
+    background-color: #FFEDED;
+}
+
+.bg-darkred {
+    background-color: #A83030;
+}
+
+.vocational-card-white {
+    background-color: #fff;
+    color: #A83030;
+    font-size: 2.5vh;
+    border-radius: 5vh;
+}
+
+.vocational-card-red {
+    background-color: #A83030;
+    color: #fff;
+    font-size: 2.5vh;
+    border-radius: 5vh;
+}
+
+.about-card-white {
+    background-color: #fff;
+    border-radius: 5vh;
+}
+
+.about-card-white p {
+    text-align: justify;
+}
+
+.about-card-white h1 {
+    color: #A83030;
+}
+
+.btn-darkred {
+    background-color: #A83030;
+    color: #fff;
+    border-radius: 2vh;
+}
+
+.news h1 {
+    color: #A83030;
+}
+
+.card {
+    border: none;
+    color: #fff;
+    background-color: #A83030;
+    border-radius: 2vh;
+}
+
+.card img {
+    border-radius: 2vh 2vh 0vh 0vh;
+}
+
+.testimoni-card{
+    background-color: #fff;
+    border-radius: 3vh;
+}
+
+.testimoni h1{
+    color: #A83030;
+}
+
+
+
+@media (max-width: 575.98px) {
+    .vocational-card-white{
+        width: 90%;
+        margin-top: -5vh;
+    }
+
+    .vocational-card-red{
+        width: 90%;
+        margin-top: -100px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}
